@@ -9,7 +9,10 @@ You could for example:
     * Services such as OSRM can be installed and used to estimate optimal route distances and paths
 
 ## Data
-The taxi data is supplied as a CSV, and is augmented from the popular NYC taxi dataset(we cannot use Cab My Ride data directly due to GDPR and our responsibility as a data processor) to match the Cab My Ride data schema.
+
+You can download the data here: https://www.dropbox.com/s/dx19q0jcurx99ts/data_final.csv.zip?dl=0
+
+The taxi data is supplied as a zipped CSV, and is augmented from the popular NYC taxi dataset(we cannot use Cab My Ride data directly due to GDPR and our responsibility as a data processor) to match the Cab My Ride data schema.
 
 You may find working over the complete range of the data is impractical, due to the number of rows, so feel to partition the data however you feel.
 
